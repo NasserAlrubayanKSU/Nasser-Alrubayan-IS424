@@ -6,6 +6,7 @@ def repeat(times):
         return wrapper
     return decorator
 
+
 x = int(input("Enter a number of repetitions: "))
 
 @repeat(x)

@@ -2,7 +2,6 @@ employee_salaries = {}
 
 while True:
     name = input("Enter employee name (or 'no' to exit): ")
-
     if name.lower() == 'no':
         break
 
